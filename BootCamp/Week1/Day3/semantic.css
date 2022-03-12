@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #e43c09;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 40px;
+    display: inline-block;
+    width: 100;
+    border: 1px solid #f87f7f;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+ul{
+    background-color: rgba(123, 195, 123, 0.500);
+    position: sticky;
+    top: 50px;
+}
+
+/*.a22{
+    background-color: blue;
+    position: fixed;
+    right: 10px;
+}
+button{
+    background-color: grey;
+    position: fixed;
+    top: 50px;
+}*/
+
+#s1{
+        background-color: rgba(123, 195, 123, 0.500);
+        position: sticky;
+        top: 1px;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+#s1 a{
+    color: black;
+}

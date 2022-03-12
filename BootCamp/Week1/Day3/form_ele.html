@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=League+Spartan:wght@300;400&family=Lobster&family=Smooch+Sans:wght@100;700&family=Syne+Mono&display=swap" rel="stylesheet">
+<style>
+           
+           body{
+                background-color: rgb(236, 136, 4);
+            }
+            h1{
+                color: rgb(253, 252, 252);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            td input {
+            font-family: 'Smooch Sans';
+            border: 0;
+            background-color: #f5e7a8;
+            color: #d43404;
+            margin: 7px;
+            padding: 3px;
+            
+            /*font-family: 'Julius Sans One','Libre Baskerville',Arial, Helvetica, sans-serif;*/
+            }
+            /*table{
+                border-color: #54804;
+                border-width: 1px;
+                border-style: solid;
+                border-right-color: red;
+                border-left-color: green;
+                border-top-color: #F0F0F0;
+            }*/
+            td{
+                border: 1px solid #720f05;
+                font-family: 'Syne Mono','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .field{
+                border: 1px solid #8b4804;
+                border-width: 2px;
+                font-weight: bolder;
+                background-color: rgb(250, 212, 108);
+                
+            }
+            label, P.sh1 {
+                color: beige;
+            }
+    </style>
+</head>
+<body>
+    <!-- 
+        input text done
+        input email done
+        input password done
+        input checkbox done
+        input radio done
+        input file upload
+        input select done
+        input text area
+    -->
+
+
+    <form action="" method="get">
+        <table border="0">
+            <tbody>
+                <thead>
+                    <th colspan="2">
+                        <h1>User Information</h1>
+                    </th>
+                </thead>
+               
+                <tr>
+                    <td>
+                        <label for="firstName">Name:</label>
+                    </td>
+                    <td>
+                        <input class="field" readonly value="Ali" type="text" name="q" id="firstName">
+                    </td>
+                <tr>
+                    <td>
+                        <label for="userEmail">Email:</label>
+                    </td>
+                    <td>
+                        <input class="field" required type="email" name= "userEmail" id="useremail">
+                    </td>
+                <tr>
+                    <td>
+                        <label for="number">Number</label>
+        
+                    </td>
+                    <td>
+                        <input class="field" type="number" name="" id="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="userPassword">Password</label>
+        
+                    </td>
+                    <td>
+                        <input class="field" type="password" name="userPassword" id="userPassword">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input  type="radio" value="female" name="userGender" id="female">
+        <!-- use name="userGender" to select either values of the radio button-->
+        <label for="female">Female</label><br>
+        <input checked type="radio" value="male" name="userGender" id="male">
+        <label for="male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="">Country</label>
+                        <br>
+                        <input type="checkbox" value="Yemen" name="Countries[]" id="Yemen">
+                        <label for="Yemen">Yemen</label>
+                        <br>
+                        <input type="checkbox" value="Syria" name="Countries[]" id="Syria">
+                        <label for="Syria">Syria</label>
+                        <br>
+                        <input type="checkbox" value="Turkey" name="Countries[]" id="Turkey">
+                        <label for="Turkey">Turkey</label>
+        
+                    </td>
+                </tr>
+                
+          
+        
+<!--
+            disabled: disable the field
+            readonly: only can be highlighted
+            required: you can not submit the form without it
+            try to change name value to q
+            <input type="text" name="q" id="firstName">
+ -->
+                <tr>
+                    <td>
+                        <p class="sh1">Your Favorate Color</p>
+                        <select name="Color" id="">
+                            <option value="red">RED</option>
+                            <option value="blue">BLUE</option>
+                            <option value="yellow">YELLOW</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                 <tr>
+                     <td>
+                        <textarea name="message" id="" cols="10" rows="2">enter text here...</textarea>        
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                        <input type="reset" value="Reset">    
+                        <input type="submit" value="Send" >
+                     </td>
+                 </tr>
+                </tbody>
+            </table>
+     
+
+    </form>
+</body>
+</html>

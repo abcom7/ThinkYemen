@@ -1,0 +1,7 @@
+semantic tag
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+display properties: 
+---------------------------------
+CSS position properties: relative, absolute, fixed, and sticky
+practice google fonts
+try: cursor types

@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+a{
+    text-decoration: none;
+    color: rgb(218, 81, 81);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+header{
+    background-color: rgb(240, 235, 235);
+    padding: 20px;
+
+}
+#main-menu{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#main-menu li a{
+    padding: 8px;
+    cursor: crosshair;
+}
+section main, section aside{
+    background-color: aqua;
+    display: inline-block;
+}
+section main{
+    width: 75%;
+    float: left;
+    padding: 20px;
+}
+section aside{
+    background-color: blueviolet;
+    width: 25%;
+    float: right;
+    padding: 10px;
+}
+footer {
+    clear: both;
+    background-color: rgb(97, 231, 115);
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+}
+.news-list li{
+    margin-bottom: 20px;
+    max-width: 30%;
+    display: inline-block;
+}

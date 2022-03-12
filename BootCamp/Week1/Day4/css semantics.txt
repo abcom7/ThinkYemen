@@ -1,0 +1,35 @@
+css semantics
+use css as extrnal if you have more than one page
+https://cssminifier.org/
+normalize.css to make it easy working on other browsers
+'Julius Sans One', sans-serif 
+http://www.csszengarden.com/
+https://fonts.google.com/
+-----------------------------------
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
+--------------------------------------
+R G B ranges from 0 to 255 degrees
+R 255 0 0
+G 0 255 0
+B 0 0 255
+-----------------------------------------  
+color picker
+---------------------------------------------------
+how to justify tags in html pages?
+click shift+alt+F
+----------------------------------------------------
+in hex 0 = 00 and 255 = FF
+---------------------------------------------------
+margin-top: 10px;
+            padding-top: 10px;
+            padding-left: 10px
+-------------------------------------------
+header
+div || section
+footer
+--------------------
+in javascript:
+== : checks the value
+=== : checks the value and data type

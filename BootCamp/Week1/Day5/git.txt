@@ -1,0 +1,31 @@
+Navigation:
+pwd - (will tell you the path you are currently in)
+ls/dir - list all the files and directories in your current path location
+cd <directory name> - (Change Directory) change to another path
+cd .. go back one step
+
+GIT:
+-git clone <repo url> - can clone a repo to your local machine and will add the repo to your current path
+-git status - will show the status of the repo if there are any new changes or not
+-git add <name of file you want to add or "." for adding all changes in repo> 
+-git commit -m "meaningful commit message goes here to show what was the changes for"
+	-git remote -v - will display the remotes for the repo connection to know from which repo to pull and push 
+	-git checkout -b <branch name> - to create a new branch for separate work
+-git push <name of remote> <name of branch> - to push code to repo
+-git checkout <commit id> - to go back to an old commit
+-git pull <name of remote> <name of branch>
+
+Note: If it's your first time pushing code from your device, then you have to log in from your local device to GitHub. 
+So you will add your username and then for the password, you will need to paste the token. 
+Follow there steps to get the token: 
+1) go to your GitHub settings 
+2) scroll down and click on developer settings
+3) click on personal access token
+4) click on generate token and create the token 
+5) now you can copy the token after creation
+6) try to push to GitHub again, and now when it asks for you password, just paste the token you have copied and click enter key
+
+
+Github: 
+Fork - for adding a repo to your GitHub account 
+pull request - for adding your changes to the forked repo

@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+label {
+    color: rgb(205, 205, 228);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p {
+    color: rgb(238, 80, 6);
+    font-size:20px;
+    font-style: italic;
+    font-weight: bolder;
+    
+    
+}
+
+button{
+    color: blue            
+}
+
+h1 {
+    color: yellow
+}
+
+.first-paragraph{
+    color:blue
+}
+
+/*#first-paragraph{
+    color: red;
+}*/
+
+.first-paragraph:hover{
+    color: orange;
+    font-size: 23px;
+}
+
+#second-paragraph{
+    color:blue
+}
+
+#second-paragraph:hover{
+    color:aquamarine;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#paragraph-3 {
+    color:#c33cb1
+}
+
+#paragraph-3:hover {
+    color:rgb(243, 247, 245);
+    font-size: 26px;
+    font-weight: bolder;
+
+/*#second-paragraph{
+    color: rgb(243, 239, 239);
+}
+
+.paragraph-3{
+    color:blue
+} */

@@ -1,0 +1,6 @@
+https://www.google.com/search?q=water&source=hp
+
+http://127.0.0.1:5500/form_ele.html?
+q=ali&userEmail=ali%40gmail.com&userPassword=123456&userGender=male&Countries=Yemen&Countries=Syria&Countries=Turkey
+
+http://127.0.0.1:5500/form_ele.html?q=&userEmail=&userPassword=&userGender=male&Countries%5B%5D=Yemen&Countries%5B%5D=Syria&Countries%5B%5D=Turkey

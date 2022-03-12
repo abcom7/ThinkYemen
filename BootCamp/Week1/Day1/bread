@@ -1,0 +1,31 @@
+from turtle import color
+
+
+how to make penutbutter with jelly:
+1.slice the bread.
+2. toaste the two slices.
+3. take one portion and spread the penut butter by knife.
+4. on the other slice put jelly.
+5.club it together.
+--------------------------------------------------------
+******************************************
+************JELLY BEAN BAG ***************
+******************************************
+
+a jellybean bag has a bunch of colored jelly beans. 
+The bag has three colors: green,purple and orange.
+each jelly bean goes to a corrospending cup of the same color.
+e.g. if the jelly bean color is orange it goes to orange cup, and other 
+two colors repectivly.
+if the jelly bean bag is empty the program exit.
+
+JB_bag=[purple_jb,orange_jb,green_jb]
+for item in JB_bag:    
+    if JB_bag == purple_jb:
+        put on purple cup
+    if JB_bag ==  orange_jb:
+        put on orange cup
+    if JB_bag == green_jb: 
+        put on green cup
+    if JB_bag == len(0):
+        exit the program
